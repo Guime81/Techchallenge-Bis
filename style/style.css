@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@400;700&display=swap');
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url("../media/background.jpg") fixed;
+    background-size: cover;
+}
+
+/* ******* MENU ******* */
+
+.menu{
+    background: linear-gradient( rgb(65, 189, 220), #100641);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+   
+}
+
+.logo-smiley{
+    height: 90px;
+    margin-left: 10px;
+}
+
+.menu-list-items{
+    display: flex;
+    margin-right: 20px;
+
+}
+
+.item{
+    list-style-type: none;
+    margin-right: 50px;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+
+.item a{
+    color:#fff;
+}
+
+.item a:hover{
+    color:#ebd141;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ebd141;
+}
+
+.banner{
+    background: url(../media/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.titre-banner{
+    font-family: 'Indie Flower', cursive;
+    font-size: 7rem;
+    text-align: center;
+    padding-top: 60px;
+    text-shadow: 5px 13px 1px #6f8b49;
+    color: #ebd141;
+}
+
+.titre{
+    font-family: 'Indie Flower', cursive;
+    font-size: 7rem;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 5px 13px 1px #BBC2C8;
+}
+
+
+
+/* ******* La Famille ******* */
+
+.family-photo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-flexbox-smiley{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-flexbox-smiley p{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+
+.taille{
+    width: 300px;
+}
+
+/* ******* Nos Biens ******* */
+.table{
+    border: 2px solid rgb(16, 6, 65);
+    border-collapse: collapse;
+    width: 80%;
+    margin: 50px auto;
+    font-size: 2.5rem;
+    text-align: center;
+    box-shadow: 3px 3px 5px #100641;
+}
+
+thead th{
+    text-transform: uppercase;background-color: #100641;
+    color: #fff;
+    
+
+}
+
+.table th, .table td{
+    border: 2px solid #888;
+}
+
+tbody tr:nth-child(2n+1){
+    background-color: #bacdea;
+}
+
+tbody tr:nth-child(2n){
+    background-color: #dadee4;
+}
