@@ -180,7 +180,7 @@ tbody tr:nth-child(2n){
     display: block;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    margin: 5px 0 5px 5px;
+    margin: 13px 0 5px 5px
 }
 
 .formulaire input{
